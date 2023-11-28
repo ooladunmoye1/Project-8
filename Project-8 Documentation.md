@@ -133,9 +133,9 @@ Web1 Web2`
 
 Now you can update your LB config file with those names instead of IP addresses
 
-BalancerMember http://Web1:80 loadfactor=5 timeout=1 BalancerMember http://Web2:80 loadfactor=5 timeout=1
+BalancerMember http://web1:80 loadfactor=5 timeout=1 BalancerMember http://web2:80 loadfactor=5 timeout=1
 
-You can try to curl your Web Servers from LB locally curl http://Web1 or curl http://Web2 – it shall work.
+You can try to curl your Web Servers from LB locally curl http://web1 or curl http://web2 – it shall work.
 
 ![web1 curl](/Images/curl-http-web1.JPG)
 
